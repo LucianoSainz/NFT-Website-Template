@@ -5,10 +5,8 @@ import Hero from "./components/hero";
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <div className="row">
-          <Hero />
-        </div>
+      <div className="row">
+        <Hero />
       </div>
     </div>
   );

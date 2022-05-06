@@ -22,7 +22,7 @@ const Hero = () => {
           class="collapse navbar-collapse d-flex justify-content-end"
           id="navbarTogglerDemo02"
         >
-          <ul class="navbar-nav mb-2 mb-lg-0">
+          <ul class="navbar-nav mb-2 me-5 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
                 Home
