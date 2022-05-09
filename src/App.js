@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
-import Hero from "./components/hero";
+import Navbar from "./components/navbar";
+import About from "./components/about";
 
 function App() {
   return (
     <div className="App">
       <div className="row">
-        <Hero />
+        <Navbar />
+        <About />
       </div>
     </div>
   );

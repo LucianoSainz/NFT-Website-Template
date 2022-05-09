@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hero = () => {
+const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
@@ -35,18 +35,18 @@ const Hero = () => {
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
-                Work
+                Mint
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
-                Mint
+                Contact
               </a>
             </li>
           </ul>
           <form class="d-flex">
             <button class="btn btn-outline-success" type="submit">
-              Contract
+              My NFT
             </button>
           </form>
         </div>
@@ -55,4 +55,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Navbar;

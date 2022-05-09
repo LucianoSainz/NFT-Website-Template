@@ -1,5 +1,23 @@
 body{
-  background-image: url('./img/fondo.png');
+  background-image: url('./img/fdob1.png');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.container-fluid{
+  padding-left: 80px;
+ 
+}
+
+.title-one{
+  margin-top:150px;
+  font-size:90px;
+  font-family: 'Saira Condensed',sans-serif;
+  color:#fff;
+}
+.text-one{
+  color:#fff;
+}
+.btn{
+  width: 200px;
 }
