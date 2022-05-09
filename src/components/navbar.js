@@ -19,7 +19,7 @@ const Navbar = () => {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse d-flex justify-content-end"
+          class="collapse navbar-collapse  justify-content-end"
           id="navbarTogglerDemo02"
         >
           <ul class="navbar-nav mb-2 me-5 mb-lg-0">

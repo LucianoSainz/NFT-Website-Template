@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => {
+const Home = () => {
   return (
     <>
       <div class="container-fluid">
@@ -22,4 +22,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Home;
