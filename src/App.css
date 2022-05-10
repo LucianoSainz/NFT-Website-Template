@@ -1,12 +1,10 @@
-.container-one{
+.container-home {
   background-image: url('./img/fdob3.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-left: 80px;
   height: 600px;
- 
 }
-
 .title-one{
   margin-top:120px;
   font-size:90px;
@@ -18,4 +16,12 @@
 }
 .btn{
   width: 200px;
+}
+.container-about{
+  background-image: url('./img/f2b.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 80px;
+  height: 650px;
+
 }
