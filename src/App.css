@@ -1,16 +1,14 @@
-body{
-  background-image: url('./img/fdob1.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.container-fluid{
+.container-one{
+  background-image: url('./img/fdob3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
   padding-left: 80px;
+  height: 600px;
  
 }
 
 .title-one{
-  margin-top:150px;
+  margin-top:120px;
   font-size:90px;
   font-family: 'Saira Condensed',sans-serif;
   color:#fff;
