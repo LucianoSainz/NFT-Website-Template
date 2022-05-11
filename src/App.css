@@ -52,6 +52,14 @@
 }
 .list{
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 10px;
+  font-family: 'Saira Condensed', sans-serif;
+}
+.icons{
+  justify-content: space-around;
+  font-size: 30px;
+  color:#fff;
+  cursor: pointer;
+  width: 500px;
 }

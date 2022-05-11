@@ -23,6 +23,15 @@ const About = () => {
             </ul>
           </div>
         </div>
+        <div class="social col-lg-4 col-sm-12 pt-5">
+          <div class="icons d-flex">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-discord"></i>
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-medium"></i>
+          </div>
+        </div>
       </div>
     </>
   );
