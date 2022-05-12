@@ -20,6 +20,7 @@ const About = () => {
             <ul class="list">
               <li>Illustration Artist</li>
               <li>3D Modeler</li>
+              <li>Graphic Designer</li>
             </ul>
           </div>
         </div>
