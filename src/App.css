@@ -112,3 +112,18 @@
   font-size: 18px;
   color:#fff;
 }
+.container-contact {
+  background-image: url('./img/fondo4-1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 80px;
+  height: 650px;
+}
+.contact{
+  margin-top: 30px;
+    width: 400px;
+    height: 401px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
