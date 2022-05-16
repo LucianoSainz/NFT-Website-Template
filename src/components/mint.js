@@ -1,5 +1,5 @@
 import React from "react";
-import superhero from "../img/superhero.jpg";
+import superhero1 from "../img/superhero1.jpg";
 
 const Mint = () => {
   return (
@@ -10,7 +10,9 @@ const Mint = () => {
         </div>
         <div class="row">
           <div class="col-lg-6 col-sm-12 pt-4">
-            <div class="card-one mx-auto"></div>
+            <div class="card-one mx-auto">
+              <img src={superhero1} />
+            </div>
           </div>
           <div class="col-lg-6 col-sm-12 pt-5 content-buy">
             <h1 class="title-four">Limited 500 NFTS</h1>
