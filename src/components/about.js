@@ -1,16 +1,16 @@
 import React from "react";
-import remove from "../img/remove.png";
+import remove2 from "../img/remove2.png";
 
 const About = () => {
   return (
     <>
       <div class="container-about">
+        <h1 class="title-two">About me</h1>
         <div class="row">
-          <div class="col-lg-4 col-sm-12 content-profile">
-            <img class="profile" src={remove} />
+          <div class="col-lg-5 col-sm-12 content-profile">
+            <img class="profile" src={remove2} />
           </div>
-          <div class="col-lg-7 col-sm-12 content-aboutMe">
-            <h1 class="title-two">About me</h1>
+          <div class="col-lg-6 col-sm-12 content-aboutMe">
             <p class="text-two">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

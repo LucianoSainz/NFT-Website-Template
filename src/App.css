@@ -22,34 +22,32 @@
   background-image: url('./img/f2b.png');
   background-size: cover;
   background-repeat: no-repeat;
-  padding-left: 80px;
+  padding-left: 30px;
   height: 660px;
-  width: 100%;
+  
 
 }
 .content-profile{
-  width: 500px;
-  margin-top: 120px;
+  display: flex;
+  justify-content: center;
   border-radius: 20px;
   box-shadow: 10px 5px 5px 10px #000;    
 }
-.profile{
- width: 500px;
-}
-.content-aboutMe{
-  margin-top: 80px;
-}
+
 .title-two{
+  padding-top: 40px;
   text-align: center;
   font-family: 'Saira Condensed', sans-serif;
   font-size: 90px;
   color:#fff;
 }
 .text-two{
+  padding-top: 30px;
   font-size: 18px;
   color:#fff;
   margin-left:15px;
 }
+
 .list{
   color: #fff;
   font-size: 25px;
@@ -135,4 +133,16 @@
   font-size: 18px;
     color: #fff;
     line-height: 40px;
+}
+.partner-title{
+  color:#fff;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+.logoOne{
+  width: 300px;
+}
+.logoTwo{
+  width: 300px;
+  margin-top: 3px;
 }

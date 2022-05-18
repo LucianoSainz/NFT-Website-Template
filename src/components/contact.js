@@ -1,5 +1,6 @@
 import React from "react";
-
+import logoBackery from "../img/logoBackery.jpg";
+import logoOpensea from "../img/logoOpensea1.jpg";
 const Contact = () => {
   return (
     <>
@@ -34,7 +35,7 @@ const Contact = () => {
               </div>
             </form>
           </div>
-          <div class="col-lg-7 contact-content">
+          <div class="col-lg-7 col-sm-12 contact-content">
             <ul class="list-two">
               <li>
                 Lorem Ipsum is simply dummy text of the printing and
@@ -49,6 +50,11 @@ const Contact = () => {
                 to make a type specimen book
               </li>
             </ul>
+            <div class="partner-content">
+              <h2 class="partner-title">Partners</h2>
+              <img class="logoOne" src={logoBackery} /> <br />
+              <img class="logoTwo" src={logoOpensea} />
+            </div>
           </div>
         </div>
       </div>
