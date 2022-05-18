@@ -127,3 +127,12 @@
     border: 1px solid #fff;
     border-radius: 20px;
 }
+
+.contact-content{
+  margin-top: 35px;
+}
+.list-two{
+  font-size: 18px;
+    color: #fff;
+    line-height: 40px;
+}
