@@ -7,8 +7,16 @@ const About = () => {
       <div class="container-about">
         <h1 class="title-two">About me</h1>
         <div class="row">
-          <div class="col-lg-5 col-sm-12 content-profile">
-            <img class="profile" src={remove2} />
+          <div class="col-lg-4 col-sm-12 about">
+            <div class="content-profile">
+              <img class="profile" src={remove2} />
+            </div>
+            <div class="icons pt-4">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-telegram"></i>
+              <i class="fa-brands fa-medium"></i>
+            </div>
           </div>
           <div class="col-lg-6 col-sm-12 content-aboutMe">
             <p class="text-two">
@@ -24,15 +32,7 @@ const About = () => {
             </ul>
           </div>
         </div>
-        <div class="social col-lg-4 col-sm-12 pt-5">
-          <div class="icons d-flex">
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-discord"></i>
-            <i class="fa-brands fa-telegram"></i>
-            <i class="fa-brands fa-medium"></i>
-          </div>
-        </div>
+        <div class="social col-lg-6 col-sm-12 pt-5"></div>
       </div>
     </>
   );
