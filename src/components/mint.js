@@ -13,6 +13,17 @@ const Mint = () => {
             <div class="card-one">
               <img class="nft" src={superhero1} />
             </div>
+            <ul class="list-mint">
+              <h2 class="about-nft">About NFT</h2>
+              <li>
+                Lorem Ipsum is simply dummy text of the printing and
+                typesetting.
+              </li>
+              <li>
+                Lorem Ipsum is simply dummy text of the printing and
+                typesetting.
+              </li>
+            </ul>
           </div>
           <div class="col-lg-6 col-sm-12 pt-5 content-buy">
             <h1 class="title-four">Limited 500 NFTS</h1>

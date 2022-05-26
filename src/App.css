@@ -85,6 +85,13 @@
   box-shadow: 10px 5px 5px 10px #fff;
  
 }
+.about-nft{
+  margin-top: 50px;
+}
+.list-mint{
+  margin-top: 15px;
+  color:#fff;
+}
 .content-buy{
   margin-top: 30px;
   width: 400px;
@@ -173,7 +180,7 @@
     }
 
         .container-mint {
-          height: 900px;
+          height: 1150px;
           padding-left: 20px;
         }
         .card-one {
@@ -187,7 +194,7 @@
                 .content-buy{
                   width:330px;
                   height: 450px;
-                  margin-left: 20px;
+                  margin:0 auto;
                 }
                         .container-contact {
                           height: 1200px;
@@ -195,7 +202,7 @@
                         }
                         .contact{
                           width: 330px;
-                          margin-left: 20px;
+                          margin:0 auto;
                         }
                 
 }
