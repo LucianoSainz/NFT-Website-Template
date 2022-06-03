@@ -5,9 +5,13 @@ const About = () => {
   return (
     <>
       <div class="container-about">
-        <h1 class="title-two">About me</h1>
         <div class="row">
-          <div class="col-lg-4 col-sm-12 about">
+          <div class="container-fluid">
+            <div class="title-content">
+              <h1 class="title-two">About me</h1>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
             <div class="content-profile">
               <img class="profile" src={remove2} />
             </div>
@@ -32,7 +36,6 @@ const About = () => {
             </ul>
           </div>
         </div>
-        <div class="social col-lg-6 col-sm-12 pt-5"></div>
       </div>
     </>
   );

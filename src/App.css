@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   padding-left: 80px;
   height: 600px;
+  display:flex;
+  justify-content: flex-start;
 }
 .title-one{
   margin-top:120px;
@@ -24,19 +26,25 @@
   background-repeat: no-repeat;
   padding-left: 20px;
   height: 660px;
+  display: flex;
+  justify-content:center;
 }
 
 
 .content-profile{
-  display: flex;
-  justify-content:center;
   border-radius: 20px;
   box-shadow: 10px 5px 5px 10px #000;
-  width: auto;    
+  width: auto;
+  display: flex;
+  justify-content: center;   
+}
+.title-content{
+  display: flex;
+  justify-content:center;
+  width: 100%;
 }
 .title-two{
   padding-top: 40px;
-  text-align: center;
   font-family: 'Saira Condensed', sans-serif;
   font-size: 90px;
   color:#fff;
@@ -77,6 +85,7 @@
   color:#fff;
   font-size: 90px;
   text-align: center;
+ 
 }
 
 .card-one{
@@ -168,7 +177,11 @@
   }
   .container-about{
       height:1100px;
+      padding:0;
     }
+   .row{
+     width: 90%;
+   }
     .about{
       width: auto;
     }
@@ -191,18 +204,29 @@
         .nft{
           width: 330px;
         }
-                .content-buy{
-                  width:330px;
-                  height: 450px;
-                  margin:0 auto;
-                }
-                        .container-contact {
-                          height: 1200px;
-                          padding-left: 20px;
-                        }
-                        .contact{
-                          width: 330px;
-                          margin:0 auto;
-                        }
-                
+        .content-buy{
+          width:330px;
+          height: 450px;
+          margin:0 auto;
+        }
+        .container-contact {
+          height: 1200px;
+          padding-left: 20px;
+        }
+        .contact{
+          width: 330px;
+          margin:0 auto;
+        }             
+}
+@media(max-width:999px) {
+  .container-about {
+    height: 1200px;
+  }
+  .row{
+    max-width: 95%;
+  }
+  .container-mint {
+    justify-content:center;
+    height: 1500px;
+  }
 }
