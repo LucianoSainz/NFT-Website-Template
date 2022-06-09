@@ -11,7 +11,7 @@ const About = () => {
               <h1 class="title-two">About me</h1>
             </div>
           </div>
-          <div class="col-lg-6 col-sm-12">
+          <div class="col-lg-5 col-sm-12">
             <div class="content-profile">
               <img class="profile" src={remove2} />
             </div>
@@ -22,18 +22,20 @@ const About = () => {
               <i class="fa-brands fa-medium"></i>
             </div>
           </div>
-          <div class="col-lg-6 col-sm-12 content-aboutMe">
+          <div class="col-lg-7 col-sm-12 content-aboutMe">
             <p class="text-two">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
+              type and scrambled it to make a type specimen book. It has Lorem
+              Ipsum has been the industry's standard dummy text ever since the
+              1500s, when an unknown printer took a galley.
+              <ul class="list">
+                <li>Illustration Artist</li>
+                <li>3D Modeler</li>
+                <li>Graphic Designer</li>
+              </ul>
             </p>
-            <ul class="list">
-              <li>Illustration Artist</li>
-              <li>3D Modeler</li>
-              <li>Graphic Designer</li>
-            </ul>
           </div>
         </div>
       </div>
