@@ -1,4 +1,3 @@
-import React from "react";
 import logoBackery from "../img/logoBackery.jpg";
 import logoOpensea from "../img/logoOpensea1.jpg";
 const Contact = () => {

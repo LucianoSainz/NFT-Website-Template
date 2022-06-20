@@ -1,4 +1,3 @@
-import React from "react";
 import superhero1 from "../img/superhero1.jpg";
 
 const Mint = () => {

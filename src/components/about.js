@@ -1,4 +1,3 @@
-import React from "react";
 import remove2 from "../img/remove2.png";
 
 const About = () => {
