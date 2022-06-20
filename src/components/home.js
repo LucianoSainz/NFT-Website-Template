@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <>
-      <div class="container-home">
+      <div class="container-home" id="home">
         <div class="row">
           <div class="col-lg-6 col-sm-12">
             <h1 class="title-one">I'm Peter Luxer, a NFT Artist.</h1>

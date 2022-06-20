@@ -4,7 +4,7 @@ import logoOpensea from "../img/logoOpensea1.jpg";
 const Contact = () => {
   return (
     <>
-      <div class="container-contact">
+      <div class="container-contact" id="contact">
         <div class="row">
           <div class="container-fluid">
             <div class="title-content">

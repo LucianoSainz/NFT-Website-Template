@@ -4,7 +4,7 @@ import superhero1 from "../img/superhero1.jpg";
 const Mint = () => {
   return (
     <>
-      <div class="container-mint">
+      <div class="container-mint" id="mint">
         <div class="row">
           <div class="container-fluid">
             <div class="title-content">

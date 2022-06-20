@@ -4,7 +4,7 @@ import remove2 from "../img/remove2.png";
 const About = () => {
   return (
     <>
-      <div class="container-about">
+      <div class="container-about" id="about">
         <div class="row">
           <div class="container-fluid">
             <div class="title-content">
